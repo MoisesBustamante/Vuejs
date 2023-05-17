@@ -19,9 +19,7 @@ onMounted(() => {
           alt="image description"
         />
       </a>
-      <figcaption class="absolute px-4 text-lg text-white bottom-6">
-        <p>Do you want to get notified when a new component is added to Flowbite?</p>
-      </figcaption>
+      
     </figure>
   </div>
 </template>
