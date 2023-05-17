@@ -8,8 +8,8 @@ onMounted(() => {
 })
 </script>
 <template>
-  <div class="mt-36">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 m-60 mt-4">
+  <div class="mt-36 flex justify-around">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
       <div
         class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
@@ -48,9 +48,9 @@ onMounted(() => {
       </div>
 
       <div
-        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 "
       >
-        <a href="#">
+        <a href="/about">
           <img class="rounded-t-lg" src="https://images5.alphacoders.com/728/728997.jpg" alt="" />
         </a>
         <div class="p-5">

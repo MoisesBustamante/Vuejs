@@ -15,7 +15,7 @@ onMounted(() => {
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPDWz67lbmw-j9qOC4KU4hF4zLGedyeT6XA&usqp=CAU" class="h-16 mr-3 " alt="Flowbite Logo">
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Rick And Morty</span>
+      <span class="self-center text-2xl font-semibold dark:text-white">Rick And Morty</span>
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
