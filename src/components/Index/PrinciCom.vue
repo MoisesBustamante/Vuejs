@@ -8,7 +8,7 @@ onMounted(() => {
 })
 </script>
 <template>
-  <div class="mb-2">
+  <div class="my-12">
     <figure
       class="relative max-w-full transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
     >
