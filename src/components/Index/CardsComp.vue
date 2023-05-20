@@ -34,14 +34,14 @@ onMounted(() => {
         
             </div>
   <div>
-    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 p-9 mt-20">
+    <div class="h-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 p-9 mt-20">
       <div v-for="item in items" :key="item.id">
         <a
           href="#"
-          class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          class="flex h-full flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
         >
           <img
-            class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+            class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lgg"
             :src="item.image"
             alt=""
           />
